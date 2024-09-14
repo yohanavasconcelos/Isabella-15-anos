@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root{
-    --cor-principal: #BEA905;
+    --cor-borda: #BEA905;
+    --cor-borda-icones: #D4C633;
+    --cor-principal: rgb(128, 0, 0);
     --fonte-nome: "Sevillana", cursive;
     --fonte-principal: "Playwrite DK Uloopet", cursive;
     --fonte-data: "Merriweather", serif;
@@ -14,45 +16,55 @@ body{
     align-items: center; 
     text-align: center;
     color: var(--cor-principal);
-    margin: 0;
-    border: 4px solid var(--cor-principal); 
-    padding: 20px;           
-    margin: 8em;               
-    box-sizing: border-box;
+    border: 4px solid var(--cor-borda);                        
+    box-sizing: border-box; 
+    height: 48em;
     font-family: var(--fonte-principal);
     position: relative;
+    margin-top: 4em;
 }
 
 .brasao{
-    margin-top: -7em;
+    margin-top: -2.5em;
+    width: 7.5em;
+    height: 6em;
 }
 
+ 
 .descricao{
+    font-size: 0.7em;
+}
+
+.descricao2{
+    margin-top: -1em;
+}
+
+.convidar{
     font-size: 1em;
 }
 
-.pais{
-    font-size: 1.2em;
+.pais_nome{
+    margin: -1.2em 0;
 }
 
 .nome{
-    padding-left: 0.2em;
+    margin-top: 0.2em;
     font-family: var(--fonte-nome);
     font-weight: 400;
-    font-size: 5em;
+    font-size: 4.2em;
 }
 
 .dia_da_festa{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin-top: -6em;
+    margin-top: -4em;
     font-family: var(--fonte-data);
 }
 .dia{
      padding-top: 0.2em;
      padding-right: 0.2em;
-     font-size: 2.8em;
+     font-size: 2em;
      font-weight: bold;
 }
 .dia-semana_mes{
@@ -60,6 +72,7 @@ body{
     margin-top: -1em;
     padding-right: 0.8em;
     margin-right: -1em;
+    font-size: 1em;
     
 }
 .mes{
@@ -77,27 +90,46 @@ body{
     height: 1.1em;
     padding-top: 2em;
     padding: 0 0.2em;
-    font-size: 2.8em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .horario{
     padding-left: 0.5em;
+    font-size: 1em;
 }
 
 .horas-texto{
     margin-top: -1em;
+}
+.local{
+    font-size: 1em;
+}
+
+.local_festa{
+    margin: -0.8em 0 1em;
+}
+
+.data-confirmacao{
+    font-size: 1em;
 }
 
 .icones{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 14vh;
+    height: 16vh;
 }
+    
 
 .confirmacao{
     padding-right: 1em;
+}
+
+.presenca{
+    width: 1.5em;
+    height: 1.5em;
+
 }
 
 .confirmacao_presenca{
@@ -105,17 +137,21 @@ body{
     height: 3em;
     width: 5.3em;
     margin-right: 1.5em;
+    font-size: 0.8em;
 }
 
 .localizador{
-    padding-left: 2.5em;
+    padding-left: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .localizacao_mapa{
     border: 1px solid transparent;
     height: 3em;
     width: 5.3em;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    font-size: 0.8em;
 }
 
 .traje{
@@ -124,23 +160,26 @@ body{
 
 .imagem{
     margin-bottom: -0.5em;
+    margin-left: 0.5em;
 }
 
 .vestido{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
 }
 
 .camisa{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
 }
 
 .traje_texto{
     border: 1px solid transparent;
     height: 3em;
     width: 4em;
-    margin-left: 1em;
+    margin-left: 1.2em;
     margin-bottom: 0.5em;
-}
+    font-size: 0.8em;
+} 
+
 

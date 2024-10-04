@@ -159,8 +159,7 @@ body{
 }
 
 .imagem{
-    margin-bottom: -0.5em;
-    margin-left: 0.5em;
+    margin: 4em 0 -0.5em 0;
 }
 
 .vestido{
@@ -176,10 +175,20 @@ body{
 .traje_texto{
     border: 1px solid transparent;
     height: 3em;
-    width: 5em;
-    margin-left: 1.2em;
+    width: 10em;
+    margin-left: 1em;
     margin-bottom: 0.5em;
     font-size: 0.8em;
 } 
+
+.evitar{
+    border: 1px solid transparent;
+    height: 3em;
+    width: 9em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
 
 

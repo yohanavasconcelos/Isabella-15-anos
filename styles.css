@@ -119,6 +119,7 @@ body{
     justify-content: center; 
     align-items: center; 
     height: 16vh;
+    margin-left: 1em;
 }
     
 
@@ -140,6 +141,10 @@ body{
     font-size: 0.8em;
 }
 
+.local-icone{
+    margin-right: -1em;
+}
+
 .localizador{
     padding-left: 1.5em;
     width: 1.5em;
@@ -159,7 +164,7 @@ body{
 }
 
 .imagem{
-    margin: 4em 0 -0.5em 0;
+    margin: 4.5em 0 -0.5em 0;
 }
 
 .vestido{
